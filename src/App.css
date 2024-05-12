@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  color-scheme: dark;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hed-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hed-input input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  outline: none;
+  padding-left: 10px;
+}
